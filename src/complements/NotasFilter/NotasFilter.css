@@ -1,0 +1,29 @@
+.notas-filter {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.notas-filter__boton {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #2a2a2a;
+    background-color: #1a1a1a;
+    color: #cfcfcf;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.notas-filter__boton:hover {
+    border-color: var(--color-filtro);
+    color: #ffffff;
+}
+
+.notas-filter__boton--activo {
+    color:  #ffffff;
+    border: 1px solid #ffffff;
+    font-weight: 600;
+}

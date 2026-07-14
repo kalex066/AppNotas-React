@@ -1,0 +1,61 @@
+.notas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notas-list__vacio {
+  text-align: center;
+  color: #777;
+  margin-top: 30px;
+}
+
+.notas-list__card {
+  background-color: #151515;
+  border: 1px solid #262626;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.notas-list__card:hover {
+  transform: translateY(-2px);
+  border-color: #3a3a3a;
+}
+
+.notas-list__badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0a0a0a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.notas-list__texto {
+  flex: 1;
+  color: #f0f0f0;
+  margin: 0;
+  word-break: break-word;
+}
+
+.notas-list__eliminar {
+  background-color: transparent;
+  border: 1px solid #F87171;
+  color: #F87171;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.notas-list__eliminar:hover {
+  background-color: #F87171;
+  color: #0a0a0a;
+}

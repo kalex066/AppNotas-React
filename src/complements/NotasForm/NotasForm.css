@@ -1,0 +1,46 @@
+.notas-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.notas-form__input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  outline: none;
+}
+
+.notas-form__input:focus {
+  border-color:#46e07e;
+}
+
+.notas-form__select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  outline: none;
+  cursor: pointer;
+}
+
+.notas-form__boton {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #46e07e;
+  color: #1a1a1a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.notas-form__boton:hover {
+  background-color: #07cb4f;
+}

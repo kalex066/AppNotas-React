@@ -1,4 +1,4 @@
-# TechStore - Trabajando con Props
+# App - Mis Notas
 
 Aplicación React para almacenar y modificar una lista de notas. Cada nota tiene un texto y un nivel de prioridad (por ejemplo, “Alto”, “Medio”, “Bajo”). Los usuarios pueden agregar nuevas notas, eliminar notas y filtrar notas por nivel de prioridad.
 
